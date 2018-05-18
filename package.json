@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "marinko-peso's cli",
   "bin": {
-    "marinko-peso": "cli.js"
+    "marinko-peso-brainfuck": "cli.js"
   },
   "scripts": {
     "lint": "eslint .",
