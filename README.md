@@ -6,7 +6,7 @@ For fun "profile" made using [BrainFuck programming language](https://en.wikiped
 
 ## Running
 
-To test the program, you can run the content of the brainfuck file [here](https://copy.sh/brainfuck/)
+To test the program, you can run the content of the brainfuck file [here](http://bit.ly/2kayW1L)
 
 ## License
 
