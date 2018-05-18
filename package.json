@@ -6,7 +6,6 @@
     "marinko-peso": "cli.js"
   },
   "scripts": {
-    "preinstall": "node ./preinstall.js",
     "lint": "eslint .",
     "release": "np --yolo"
   },
