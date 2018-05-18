@@ -6,7 +6,11 @@ For fun "profile" made using [BrainFuck programming language](https://en.wikiped
 
 ## Running
 
-To test the program, you can run the content of the brainfuck file [here](http://bit.ly/2kayW1L)
+To test the program, you can run the content of the brainfuck file [here](http://bit.ly/2kayW1L) or simply use:
+
+```
+$ npx marinko-peso/marinko-peso-brainfuck
+```
 
 ## License
 
