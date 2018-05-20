@@ -6,10 +6,14 @@ For fun "profile" made using [BrainFuck programming language](https://en.wikiped
 
 ## Running
 
-To test the program, you can run the content of the brainfuck file [here](http://bit.ly/2kayW1L) or simply use:
+To test the program, you can run the content of the brainfuck file [here](http://bit.ly/2kayW1L), use terminal version:
 
 ```
 $ npx marinko-peso/marinko-peso-brainfuck
+```
+or open in browser using -w flag:
+```
+$ npx marinko-peso/marinko-peso-brainfuck -w
 ```
 
 ## License
