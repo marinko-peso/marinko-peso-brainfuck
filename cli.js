@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 'use strict';
 
+const { config } = require('./package.json');
 const { EOL } = require('os');
 const { Machine } = require('braincrunch');
 const { readFileSync } = require('fs');
 const argv = require('minimist')(process.argv.slice(2));
-const path = require('path');
 const opn = require('opn');
+const path = require('path');
 
-const code = readFileSync(path.join(__dirname, './brainfuck'), 'utf8');
+const code = readFileSync(path.join(__dirname, config.code), 'utf8');
 const write = n => process.stdout.write(String.fromCharCode(n));
 
 if (argv.w || argv.web) {

@@ -5,6 +5,9 @@
   "bin": {
     "marinko-peso-brainfuck": "cli.js"
   },
+  "config": {
+    "code": "./brainfuck"
+  },
   "scripts": {
     "lint": "eslint .",
     "release": "np --yolo"
